@@ -1,0 +1,24 @@
+@mixin sliding ($image_path){
+    background-image: url($image_path);
+    &:hover{
+        animation-name: slide;
+        animation-duration: 6s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }    
+}
+
+@keyframes slide {
+    
+    35%{
+        background-image: url(images/Step_4.jpg);
+    }
+    70%{
+        background-image: url(images/Step_5.jpg);
+    }                
+}
+
+
+
+
+

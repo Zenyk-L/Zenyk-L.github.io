@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Montserrat_bold';
+    src: url('./fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-Regular.ttf');
+}
+
+.text_white {
+    color: white;
+}
+
+.montserrat {
+    &__10{
+        font: {
+            family: 'Montserrat', Arial, sans-serif;
+            size: 10px;
+            weight: 400;
+        }
+        line-height: 12px;
+    }
+
+    &__10_bold{
+        font: {
+            family: 'Montserrat', Arial, sans-serif;
+            size: 10px;
+            weight: 700;
+        }
+        line-height: 12px;
+    }
+
+    &__14{
+        font: {
+            family: 'Montserrat', Arial, sans-serif;
+            size: 14px;
+            weight: 400;
+        }
+        line-height: 16px;
+
+        &_bold {
+            font: {
+                family: 'Montserrat_bold', Arial, sans-serif;
+                size: 14px;
+                weight: 700;
+            }
+            line-height: 16px;
+        }
+    }    
+
+    &__16{
+        font: {
+            family: 'Montserrat', Arial, sans-serif;
+            size: 16px;
+            weight: 400;
+        }
+        line-height: 19px;
+    }
+
+    &__20_bold {
+        font: {
+            family: 'Montserrat_bold', Arial, sans-serif;
+            size: 20px;
+            weight: 700;
+        }
+        line-height: 24px;
+    }
+
+    &__22_bold {
+        font: {
+            family: 'Montserrat_bold', Arial, sans-serif;
+            size: 22px;
+            weight: 700;
+        }
+        line-height: 26px;
+    }
+
+    &__24_bold {
+        font: {
+            family: 'Montserrat_bold', Arial, sans-serif;
+            size: 24px;
+            weight: 700;
+        }
+        line-height: 26px;
+    }
+
+    &__26_bold {
+        font: {
+            family: 'Montserrat_bold', Arial, sans-serif;
+            size: 26px;
+            weight: 700;
+        }
+        line-height: 31px;
+    }
+
+    &__52_bold {
+        font: {
+            family: 'Montserrat_bold', Arial, sans-serif;
+            size: 52px;
+            weight: 700;
+        }
+        line-height: 64px;
+    }
+}
+
+.roboto {
+    &__14 {
+        font: {
+            family: 'Roboto', Arial, sans-serif;
+            size: 14px;
+            weight: 300;
+        }
+    line-height: 14px;
+    }
+
+    &__18 {
+        font: {
+            family: 'Roboto', Arial, sans-serif;
+            size: 18px;
+            weight: 300;
+        }
+    line-height: 14px;
+    }
+    
+    &__24 {
+        font: {
+            family: 'Roboto', Arial, sans-serif;
+            size: 24px;
+            weight: 300;
+        }
+        line-height: 24px;
+    }
+}
